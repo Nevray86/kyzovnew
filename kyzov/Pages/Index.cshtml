@@ -1,0 +1,59 @@
+﻿@page
+@model IndexModel
+@{
+   // ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en" >
+   
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Авто ремонт</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/atest.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/img/heder.svg" asp-append-version="true" />
+    
+</head >
+
+
+    <div class="h">
+        <heder class="heder">
+          <div class="container">
+            <div class="heder-nav">
+              <nav class="nav">
+                <ul class="nav-list">
+                  
+                 
+                  <li class="nav-item"><a asp-area="" asp-page="/Price" class="nav-linc">Цены</a></li>
+                  <li class="nav-item"><a asp-area="" asp-page="/Adres" class="nav-linc">Адрес</a></li>
+                  <li class="nav-item"><a href="tel:+79630434545">+7(963)-043-45-45</a></li>
+                   <li class="nav-item"><a href="https://wa.me/+79630434545">WhatsApp</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="name">
+            <h1>Кузовной ремонт</h1>
+          </div>
+          <div class="services">
+            <h1>полировка кузова и фар</h1>
+            <div class="i"></div>
+            <h1>антигравийная обработка</h1>
+            <div class="i2"></div>
+            <h1>покраска дисков</h1>
+            <div class="i3"></div>
+          </div>
+           
+        </heder>
+      </div>
+
+
+
+
+
+    <!--<h1 class="display-4">Покраска авто</h1>
+    <img src=~/lib/img/klipartz.com.png/>-->
+

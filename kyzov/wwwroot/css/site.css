@@ -1,0 +1,269 @@
+@import "./reset.css";
+.menu{
+    color:blue;
+}
+.fon {
+    font-size: 20px;
+    max-width: 1230px;
+    height: auto;
+    background: url(/lib/img/garaj.png);
+    background-repeat: no-repeat;
+}
+.h1{
+    
+    color:red;
+    padding-left: 300px;
+}
+.price {
+   
+    
+}
+.map {
+    max-width: 1230px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #2E8B57;
+}
+.map-name {
+    max-width: 1230px;
+    background-color: #2E8B57;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    padding-top: 350px;
+}
+.r {
+    color:blue;
+    font-size: 30px;
+    text-decoration:none;
+    display:flex;
+}
+
+.services {
+    color: white;
+    font-size: 30px;
+    padding-left: 150px;
+    padding-top: 70px;
+}
+
+.i {
+    background: url(/lib/img/polisher.png);
+    background-repeat: no-repeat;
+    padding-left: 500px;
+    padding-top: 200px;
+}
+
+.i2 {
+    background: url(/lib/img/paint.png);
+    background-repeat: no-repeat;
+    padding-left: 500px;
+    padding-top: 200px;
+}
+
+.i3 {
+    background-color: aliceblue;
+    background: url(/lib/img/disc.png);
+    background-repeat: no-repeat;
+    padding-left: 500px;
+    padding-top: 200px;
+}
+
+.name {
+    color: white;
+    margin-top: 70px;
+    font-size: 90px;
+    max-width: 1230px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.h {
+    height: auto;
+    background:url(/lib/img/heder.svg);
+    background-size: cover;
+    max-width: 1230px;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+.heder-nav {
+    display: flex;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-size: 20px;
+}
+
+.nav-linc {
+    color: rgb(241, 199, 9);
+}
+
+
+@media (max-width: 600px) {
+    .fon {
+        font-size: 7px;
+        max-width: 1230px;
+        height: auto;
+        background: url(/lib/img/garaj.png);
+        background-repeat: no-repeat;
+    }
+
+    .services {
+        color: white;
+        font-size: 15px;
+        padding-left: 15px;
+        padding-top: 7px;
+    }
+
+    .i {
+        background: url(/lib/img/pol24.png);
+        background-repeat: no-repeat;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+    .i2 {
+        background: url(/lib/img/paint24.png);
+        background-repeat: no-repeat;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+    .i3 {
+        background: url('/lib/img/free-icon-alloy.png');
+        
+        background-repeat: no-repeat;
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+
+    .name {
+        color: white;
+        margin-top: 10px;
+        font-size: 10px;
+        justify-content: center;
+        display: flex;
+    }
+
+
+    .h {
+        height: auto;
+        background: url(/lib/img/heder.svg);
+        background-size: cover;
+    }
+
+    .container {
+        padding: 0 30px;
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    .heder-nav {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .nav-list {
+        display: flex;
+        column-gap: 5px;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .nav-linc {
+        color: rgb(241, 199, 9);
+        
+    }
+
+    .h1 {
+        color: red;
+        padding-left: 50px;
+        font-size:10px;
+    }
+    .r {
+        color: blue;
+        font-size: 10px;
+        text-decoration: none;
+        display: flex;
+    }
+    @media (max-width: 391px) {
+        .heder {
+        }
+
+        .services {
+            color: white;
+            font-size: 10px;
+            padding-left: 15px;
+            padding-top: 7px;
+        }
+
+        .i {
+            background: url(/lib/img/pol24.png);
+            background-repeat: no-repeat;
+            padding-left: 50px;
+            padding-top: 50px;
+        }
+
+        .i2 {
+            background: url(/lib/img/paint24.png);
+            background-repeat: no-repeat;
+            padding-left: 50px;
+            padding-top: 50px;
+        }
+
+        .i3 {
+            background: url('/lib/img/free-icon-alloy.png');
+            background-repeat: no-repeat;
+            padding-left: 50px;
+            padding-top: 100px;
+        }
+
+        .name {
+            color: white;
+            margin-top: 10px;
+            font-size: 10px;
+            justify-content: center;
+            display: flex;
+        }
+
+
+        .h {
+            height: auto;
+            background: url(/lib/img/heder.svg);
+            background-size: cover;
+        }
+
+        .container {
+            padding: 0 30px;
+            margin: 0 auto;
+            justify-content: center;
+            display: flex;
+        }
+
+        .heder-nav {
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .nav-list {
+            display: flex;
+            column-gap: 5px;
+            font-size: 10px;
+        }
+
+        .nav-linc {
+            color: rgb(241, 199, 9);
+        }
+    }
